@@ -1,0 +1,25 @@
+{
+  "name": "terminal-emulator",
+  "version": "1.0.0",
+  "description": "terminal emulator base personal website",
+  "main": "js/cli.js",
+  "scripts": {
+    "dev": "http-server -o",
+    "format": "prettier --write 'src/*.js'",
+    "lint": "prettier --check 'src/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Riddhish97/terminal-emulator.git"
+  },
+  "author": "Riddhish Rajgor <riddhishraj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riddhish97/terminal-emulator.git/issues"
+  },
+  "homepage": "https://github.com/Riddhish97/terminal-emulator.git#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "prettier": "^2.0.2"
+  }
+}

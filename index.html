@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="styles/main.less" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+    <script type="text/javascript" src="src/shell.js"></script>
+    <script type="text/javascript" src="src/cli.js"></script>
+  </head>
+  
+  <body>
+  
+  <div class="terminal-window">
+    <header>
+      <div class="button red" style="float: right;"></div>
+      <div class="button yellow" style="float: right;"></div>
+      <div class="button green" style="float: right;"></div>
+    </header>
+    <div id="terminal">
+      <p><span class="green">:)</span> - you're in Riddhish's cli! type `help` to get started. use TAB to autocomplete commands, filenames or folder names.</p>
+        <p class="hidden">
+          <span class="prompt">
+            <span class="root">root</span>
+            <span class="tick">❯</span>
+          </span>
+          <span contenteditable="true" class="input" spellcheck="false"></span>
+        </p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <p>© Riddhish Rajgor 2022</p>
+    <p> Made with ❤ and coffee</p>
+    <p>Site code can be found <a class="site-code" target="_blank" href="https://github.com/Riddhish97/terminal-emulator.git">here</a></p>
+  </div>
+  
+  </body>
