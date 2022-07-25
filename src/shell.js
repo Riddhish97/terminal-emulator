@@ -46,6 +46,9 @@ class Shell {
         "to":"touch",
         "tou":"touch",
         "touc":"touch",
+        "e":"exit",
+        "ex":"exit",
+        "exi":"exit",
       }
       let argsObj={
         "a":"about.txt",
