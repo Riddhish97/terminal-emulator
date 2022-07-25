@@ -42,6 +42,8 @@ commands.touch = () => errors.noWriteAccess;
 
 // Remove file from current directory.
 commands.rm = () => errors.noWriteAccess;
+//Exit logic redirect to riddhish rajgor page riddhishrajgor.com
+commands.exit = () => window.location.href= "https://riddhishrajgor.com";
 
 // View contents of specified directory.
 commands.ls = (directory) => {
